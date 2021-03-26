@@ -349,9 +349,12 @@
     <h2 class="heading">наши изделия</h2>
     <div class="product">
         <article class="products__course">
-        <div class="products__figure">
+            <picture class="products__figure">
+             <source media="(min-width: 1200px)" srcset="img/shop-item-desk1.jpg">
+             <source media="(min-width: 361px) and (max-width: 1199px)" srcset="img/shop-item-tablet1.jpg">
+             <source media="(max-width: 360px)" srcset="img/shop-item-mobile1.jpg">
             <img src="./img/shop-item-tablet1.jpg" alt="подушка на диван">
-        </div>
+            </picture>
             <div class="product__block">
             <div class="product__content">
          <h3 class="article">подушки на диван</h3>
@@ -373,11 +376,14 @@
                 <button class="product__button">в магазин</button>
             </footer>
             </div>
-    </article>
+        </article>
         <article class="products__course">
-            <div class="products__figure">
+            <picture class="products__figure">
+                <source media="(min-width: 1200px)" srcset="img/shop-item-desk2.jpg">
+                <source media="(min-width: 361px) and (max-width: 1199px)" srcset="img/shop-item-tablet2.jpg">
+                <source media="(max-width: 360px)" srcset="img/shop-item-mobile2.jpg">
                 <img src="./img/shop-item-tablet2.jpg" alt="кукла зайчик">
-            </div>
+            </picture>
             <div class="product__block">
              <div class="product__content">
                 <h3 class="article">кукла "зайчик"</h3>
@@ -397,9 +403,12 @@
             </div>
     </article>
         <article class="products__course">
-            <div class="products__figure">
-                <img src="./img/shop-item-tablet3.jpg" alt="Шестиугольная рамка">
-            </div>
+            <picture class="products__figure">
+               <source media="(min-width: 1200px)" srcset="img/shop-item-desk3.jpg">
+               <source media="(min-width: 361px) and (max-width: 1199px)" srcset="img/shop-item-tablet3.jpg">
+               <source media="(max-width: 360px)" srcset="img/shop-item-mobile3.jpg">
+               <img src="./img/shop-item-tablet3.jpg" alt="Шестиугольная рамка">
+            </picture>
             <div class="product__block">
                 <div class="product__content">
                 <h3 class="article">Шестиугольная рамка</h3>
@@ -450,7 +459,7 @@
     </div>
 </footer>
 
-<div class="popup"><div>
+<div class="popup">
 
     <div class="popup-block">
 
@@ -487,7 +496,8 @@
                     </div>
                 </form>
                 <button class="popup-close" type="button"><span class="popup_buttontext">Закрыть окно</span></button>
-            </div>
-            </div>
+        </div>
+    </div>
+ <div>
 </body>
 </html>
